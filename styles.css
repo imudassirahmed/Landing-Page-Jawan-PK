@@ -1,0 +1,89 @@
+/* Top bar */
+.top-bar {
+    background-color: #ee2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .menu a {
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+  }
+  
+  
+  .menu a:hover {
+    color: rgb(187, 187, 187);
+  }
+  
+  /* Slider */
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Text and Image section */
+  .content {
+    display: flex;
+    margin: 15px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .text h2 {
+    font-size: 18px;
+  }
+  
+  .text h1 {
+    font-size: 32px;
+  }
+  
+  .text p {
+    font-size: 16px;
+  }
+  
+  .image img {
+    width: 400px;
+    height: auto;
+  }
+  
+  /* Navigation bar */
+  .navigation-bar {
+    background-color: #ee2d2d; 
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+  }
+  
+  .navigation-bar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation-bar a:hover {
+    color: rgb(5, 5, 5); /* Change the color to your desired hover color */
+  }
+  
+  .navigation-bar img {
+    height: 20px;
+  }
+  
